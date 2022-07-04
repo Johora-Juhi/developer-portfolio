@@ -8,21 +8,23 @@ h1{
 .juu{
     color:cadetblue;
 }
-section{
+.flexible-container{
     display:flex;
+    padding-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width:60%;
-    padding-top: 15%;
+    width:80%;
+    padding-top: 8%;
 }
 .half-width p{
     text-align: justify;
+    padding-bottom: 10px;
 }
-.hire-buttun{
+.buttun{
     text-decoration: none;
     background-image: linear-gradient(cadetblue, rgb(47, 205, 205));
     color:white;
@@ -33,4 +35,12 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 } 
+.left-padding{
+    padding-right:20%;
+}
+.middle-section{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
     
